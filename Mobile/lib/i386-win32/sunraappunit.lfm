@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 1000
+  Height = 446
+  Top = 107
+  Width = 355
+  Caption = 'Form1'
+  ClientHeight = 446
+  ClientWidth = 355
+  OnCreate = FormCreate
+  LCLVersion = '1.0.2.0'
+  object First: TButton
+    Left = 152
+    Height = 19
+    Top = 32
+    Width = 75
+    Caption = 'First'
+    OnClick = FirstClick
+    TabOrder = 0
+  end
+  object RadioButton1: TRadioButton
+    Left = 24
+    Height = 19
+    Top = 32
+    Width = 92
+    Caption = 'RadioButton1'
+    OnChange = RadioButton1Change
+    TabOrder = 1
+  end
+  object RadioButton2: TRadioButton
+    Left = 24
+    Height = 19
+    Top = 63
+    Width = 92
+    Caption = 'RadioButton2'
+    OnChange = RadioButton2Change
+    TabOrder = 2
+  end
+  object Second: TButton
+    Left = 152
+    Height = 19
+    Top = 63
+    Width = 75
+    Caption = 'Second'
+    OnClick = SecondClick
+    TabOrder = 3
+  end
+end
